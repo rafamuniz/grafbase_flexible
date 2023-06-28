@@ -2,8 +2,8 @@ import { GraphQLClient } from "graphql-request";
 
 import { createProjectMutation, createUserMutation, deleteProjectMutation, 
     updateProjectMutation, getProjectByIdQuery, getProjectsOfUserQuery, 
-    getUserQuery, projectsQuery } from "@/src/graphql";
-import { ProjectForm } from "@/src/types/flexible.types";
+    getUserQuery, projectsQuery } from "@/graphql";
+import { ProjectForm } from "@/types/flexible.types";
 
 const isProduction = process.env.NODE_ENV === 'production';
 const apiUrl = isProduction ? process.env.NEXT_PUBLIC_GRAFBASE_API_URL || '' : 'http://127.0.0.1:4000/graphql';

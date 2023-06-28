@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
-import { Footer, Header, Navbar } from '@/src/components'
+import { Footer, Header, Navbar } from '@/components'
 
 export const metadata = {
   title: 'Admin Portal',

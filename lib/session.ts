@@ -6,7 +6,7 @@ import jsonwebtoken from 'jsonwebtoken'
 import { JWT } from "next-auth/jwt";
 
 import { createUser, getUser } from "./actions";
-import { SessionInterface, UserProfile } from "@/src/types/flexible.types";
+import { SessionInterface, UserProfile } from "@/types/flexible.types";
 
 export const authOptions: NextAuthOptions = {
     providers: [

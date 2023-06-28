@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { NavLinks } from "@/src/constants/flexibble";
-import { getCurrentUser } from "@/src/lib/session";
+import { NavLinks } from "@/constants/flexibble";
+import { getCurrentUser } from "@/lib/session";
 
-import AuthProviders from "@/src/components/AuthProviders/AuthProviders";
-import Button from "@/src/@core/IconButton";
-import ProfileMenu from "@/src/components/ProfileMenu/ProfileMenu";
+import AuthProviders from "@/components/AuthProviders/AuthProviders";
+import Button from "@/@core/IconButton";
+import ProfileMenu from "@/components/ProfileMenu/ProfileMenu";
 
 const Navbar = async () => {
   const session = await getCurrentUser()

@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import FooterColumn from "./FooterColumn";
-import { footerLinks } from "@/src/constants/flexibble";
+import { footerLinks } from "@/constants/flexibble";
 import { useEffect } from "react";
 
 const Footer = () => {
